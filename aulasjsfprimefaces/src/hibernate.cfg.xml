@@ -22,7 +22,7 @@
 		<property name="hibernate.connection.autocommit">false</property>
 		<property name="hibernate.connection.pool_size">50</property>
 		
-		<!-- auditoria (tab com registro de log)-->
+		<!-- auditoria (table com registro de log)-->
 		<listener class="org.hibernate.envers.event.AuditEventListener" type="post-insert"/>
 		<listener class="org.hibernate.envers.event.AuditEventListener" type="post-update"/>
 		<listener class="org.hibernate.envers.event.AuditEventListener" type="post-delete"/>
