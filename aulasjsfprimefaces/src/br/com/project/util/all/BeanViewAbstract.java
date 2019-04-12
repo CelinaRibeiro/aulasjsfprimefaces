@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 
- * @author CelinaL
+ * @author Celina
  *
  */
 
