@@ -34,6 +34,11 @@
 	</error-page>
 	
 	<error-page>
+		<error-code>404</error-code>
+		<location>/error/404.jsf</location>
+	</error-page>
+	
+	<error-page>
 		<error-code>500</error-code>
 		<location>/error/error.jsf</location>
 	</error-page>
